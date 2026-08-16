@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/generate-test", "destination": "https://zero-code-playwright-generator-production.up.railway.app/api/generate-test" },
+    { "source": "/api/(.*)", "destination": "https://zero-code-playwright-generator-production.up.railway.app/$1" }
+  ]
+}
